@@ -1,0 +1,106 @@
+*{ box-sizing: border-box }
+
+img {
+   width: 100%;
+   display: block;
+}
+
+body {
+   margin: 0;
+}
+
+#app-container{
+   max-width: 960px;
+   margin: 0 auto;
+}
+.mockup2 {
+   margin-bottom: 25px;
+}
+
+.titlebox {
+   display:inline-block;
+   width: 100%;
+   font-size: 0px;
+   div{
+      width: 25%;
+      display:inline-block;
+
+      h1{
+         font-size: 100px;
+         text-align: center;
+      }
+   }
+}
+.imagebox {
+
+   .shopnow{
+      position:absolute;
+      color: white;
+      background: black;
+      text-size: 30px;
+      text-align: center;
+      width: 10%;
+      left: 45%;
+      bottom: 1.5%;
+      font-style: italic;
+      font-weight: 200;
+
+   }
+   .bag {
+      position:absolute;
+      background: none;
+      top: 42%;
+      right: 10%;
+
+
+      img{
+         width:26%;
+      }
+   }
+
+}
+.mockup1 {
+margin: auto;
+
+max-width: 2048px;
+position: absolute;
+height: 100%;
+width: 100%;
+left:0;
+right:0;
+}
+
+.popbox{
+   width: 49%;
+   display: inline-block;
+   text-align: center;
+   vertical-align: top;
+
+}
+
+.popright {
+   margin-bottom: 5px;
+   div{
+      width: 75%;
+      color:white;
+      background: black;
+      margin: 0 auto;
+   }
+   button {
+      border-radius: 100%;
+      border-style: none;
+      position: absolute;
+      bottom:235px;
+      background: gray;
+      color: white;
+      font-size: 20px;
+      right: 565px;
+   }
+}
+.popupbox {
+   position:absolute;
+   right: 0;
+   bottom: 0;
+   background:lightgray;
+   width: 40%;
+}
